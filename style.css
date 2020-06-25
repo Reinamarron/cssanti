@@ -51,14 +51,13 @@ h5 {
   justify-content: space-between;  
 }
 
-
-
-
 .container{
   display:flex;
+  display:inline-block
   flex-wrap: nowrap;
   justify-content: space-around;
-  justify-content: ;
+  text-align: center;
+  align-items: stretch;
 }
 
 .container > div > img {
@@ -69,13 +68,13 @@ h5 {
 .dates{
   display:flex;
   flex-direction: row;
-  text-align: center;
+  align-items:center;
   justify-content:center;
-  align-items: center;
-  /* border:solid red 2px;
-  margin:auto; */
+  align-items:center;
   height:40%;
   width:100%;
+  text-align: center;
+  padding-inline: 2%;
 }
 
 
